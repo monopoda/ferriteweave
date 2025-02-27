@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Bioferrite content -->
+
+  <ResearchProjectDef>
+    <defName>BioferriteWeaving</defName>
+    <label>bioferrite weaving</label>
+    <description>Weave bioferrite with devilstrand.</description>
+    <tab>Anomaly</tab>
+    <prerequisites>
+      <li>BioferriteExtraction</li>
+      <li>Devilstrand</li>
+    </prerequisites>
+    <knowledgeCost>5</knowledgeCost>
+    <knowledgeCategory>Basic</knowledgeCategory>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>3.40</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->bioferrite extraction</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+</Defs>

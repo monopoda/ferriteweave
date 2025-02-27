@@ -10,6 +10,9 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<workAmount>150</workAmount>
+		<researchPrerequisite>
+		  <li>BioferriteWeaving</li>
+		</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
