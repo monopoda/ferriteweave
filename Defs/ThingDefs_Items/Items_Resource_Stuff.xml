@@ -3,7 +3,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>Ferriteweave</defName>
     <label>ferriteweave</label>
-    <description>Bioferrite spun with devilstrand. It's not as insulating or protective as devilstrand, but the interwove bioferrite increases the psychic sensitivity of the wearer.</description>
+    <description>Bioferrite spun with devilstrand. It's not as insulating or protective as devilstrand, but the interwoven bioferrite increases the psychic sensitivity of the wearer.</description>
     <graphicData>
       <texPath>Things/Ferriteweave</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -12,7 +12,7 @@
       <MaxHitPoints>100</MaxHitPoints>
       <MarketValue>4.5</MarketValue>
       <Mass>0.032</Mass>
-      <Flammability>0.55</Flammability>
+      <Flammability>0.50</Flammability>
       <DeteriorationRate>3</DeteriorationRate>
       <StuffPower_Armor_Sharp>1.20</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.4</StuffPower_Armor_Blunt>

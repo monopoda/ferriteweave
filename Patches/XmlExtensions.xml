@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="XmlExtensions.UseSetting">
+		<modId>monopoda.ferriteweave</modId> <!--String that XML Extensions can identify your mod with-->
+		<key>commonality</key> <!--Key to identify the setting (only used internally, invisible to user)-->
+		<defaultValue>0.22</defaultValue> <!--What you want the default value of the setting to be-->
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Ferriteweave"]/stuffProps/commonality</xpath>
+				<value>
+					<commonality>{commonality}</commonality> <!--Use the setting's value-->
+				</value>
+			</Operation>
+		</apply>
+	</Operation>
+</Patch>
